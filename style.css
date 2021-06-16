@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
     html {font-size: 16px;}
 		#wrap {width: 1265px; margin: 0 auto;}
 		#banner {font-size: 2rem;font-family: 'Pangolin', cursive;}
-		#preview {width: 1200px; margin: 0 auto;}
+		#preview {width: 1200px; margin: 0 auto;font-family: 'PT Sans', sans-serif;}
 		.img-preview {width: 20%; float: left;}
 		.img-preview img {width: 95%;} 
 		p {text-align: center;}
 		.menu {width: 33%; text-align: center; display: inline-block;}
 		#menu-cont {clear: both; border-top:1px solid black;   
-				                     border-bottom: 1px solid black;}
+				                     border-bottom: 1px solid black;font-family: 'PT Sans', sans-serif;}
 		#box01 p {clear: both;border: 2px solid black; padding: 20px;text-align: center;font-size: 2rem;}
 			/* claer both를 설정해주자 저 칸에 맞게 설정되었는데 이유가 궁금..합니다
 			마진 탑을 해주었는데 왜 실행이 안 되는지 궁금합니다*/ 
